@@ -35,6 +35,6 @@ switch(calc){
     console.log(num1 / num2);
   break;
   default :
-    console.log("error!");
+    console.log("error");
   break;
 }

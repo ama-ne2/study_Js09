@@ -1,6 +1,6 @@
 const num1 = 8;
 const num2 = 2;
-const calc = "k";
+const calc = "a";
 let ans = 0;
 
 if(calc == "a"){
@@ -33,8 +33,5 @@ switch(calc){
   break;
   case "d" :
     console.log(num1 / num2);
-  break;
-  default :
-    console.log("error!");
   break;
 }
