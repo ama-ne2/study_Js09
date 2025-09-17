@@ -26,8 +26,7 @@ for(let i = 0; i < 20; i++){
             wallet -= price;
             console.log(`${i+1}回目の買い物成功。残金は${wallet}円`);
         }else{
-            wallet -= sale;
-            console.log(`${i+1}回目の買い物成功。残金は${wallet}円`);
+
         }
     }else{
         console.log(`買い物終了${i}個買えた`);
