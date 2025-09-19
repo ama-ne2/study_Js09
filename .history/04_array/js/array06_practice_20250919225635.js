@@ -17,7 +17,8 @@ console.log(members);
 
 // 中田の都合が悪くなりキャンセル
 // 中田の友達が参加したいとのことで中田の名前を「恵比寿」に変更
-members[0] ="恵比寿";
+members[0].shift();
+members.push("恵比寿");
 
 // 出力："恵比寿",滝山","武内","桃山","板倉","宮本"
 console.log(members);

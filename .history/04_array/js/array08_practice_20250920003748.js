@@ -5,22 +5,22 @@ let omikuji =["大吉","中吉","小吉","吉","凶","大凶"];
 console.log(omikuji);
 
 
-if( omikuji[no] == "大吉"){
+if( omikuzi[no] == "大吉"){
     console.log("大吉ですおめでとう！");
 }
-else if( omikuji[no] == "中吉"){
+else if( omikuzi[no] == "中吉"){
     console.log("中吉ですラッキー");
 }
-else if(omikuji[no] == "小吉"){
+else if(omikuzi[no] == "小吉"){
     console.log("小吉です");
 }
-else if(omikuji[no] == "吉"){
+else if(omikuzi[no] == "吉"){
     console.log("コメントに困る吉です");
 }
-else if( omikuji[no] == "凶"){
+else if( omikuzi[no] == "凶"){
     console.log("凶ですアンラッキー");
 }
-else if( omikuji[no] == "大凶"){
+else if(omikuzi[no] == "大凶"){
     console.log("大凶です残念・・・");
 }
 

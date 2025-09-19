@@ -4,24 +4,23 @@ const no = Math.floor(Math.random()*5);
 let omikuji =["大吉","中吉","小吉","吉","凶","大凶"];
 console.log(omikuji);
 
+console.log(no);
 
-if( omikuji[no] == "大吉"){
+if( no == omikuji[0]){
     console.log("大吉ですおめでとう！");
 }
-else if( omikuji[no] == "中吉"){
+else if( no == omikuji[1]){
     console.log("中吉ですラッキー");
 }
-else if(omikuji[no] == "小吉"){
+else if( no == omikuji[2]){
     console.log("小吉です");
 }
-else if(omikuji[no] == "吉"){
+else if( no == omikuji[3]){
     console.log("コメントに困る吉です");
 }
-else if( omikuji[no] == "凶"){
+else if( no == omikuji[4]){
     console.log("凶ですアンラッキー");
 }
-else if( omikuji[no] == "大凶"){
+else if( no == omikuji[5]){
     console.log("大凶です残念・・・");
 }
-
-console.log(no);

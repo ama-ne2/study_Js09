@@ -1,0 +1,1 @@
+let word =["apple","gorilla","trumpet","bread"];
